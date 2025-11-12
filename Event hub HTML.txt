@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Sweatt - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+    }
+    article {
+      margin-bottom: 2rem;
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    figure {
+      margin: 1rem 0;
+      text-align: center;
+    }
+    figure img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    figcaption {
+      font-style: italic;
+      margin-top: 0.5rem;
+      color: #555;
+    }
+    a.project-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background-color: #333;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    a.project-link:hover {
+      background-color: #555;
+    }
+    ul.skills-list {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Christian Sweatt</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an aspiring developer looking for an internship or full-time opportunity
+        where I can grow, learn, and build real-world experience. I am comfortable
+        working with HTML, Java, and Python, and I also have hands-on experience with
+        CSS, C#, and SQL, although I am still building confidence with those skills.
+        I enjoy programming because it allows me to solve problems, create useful
+        tools, and continuously push myself to learn new things. I am motivated,
+        eager to improve, and excited to start my career in tech.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <!-- Event Hub Project -->
+      <article>
+        <h3>Event Hub Website</h3>
+        <p>
+          A semantic HTML webpage to display upcoming and past events.
+          Built to practice clean HTML structure, accessibility, and proper semantic elements.
+        </p>
+
+        <!-- Upcoming Events -->
+        <section id="upcoming-events">
+          <h4>Upcoming Events</h4>
+
+          <article>
+            <h5>Admin Abuse</h5>
+            <p>Admins give free stuff at 3pm.</p>
+            <figure>
+              <img src="https://static.wikia.nocookie.net/stealabr/images/7/7c/AdminLuckyBlock.png/revision/latest/scale-to-width-down/644?cb=20251007132226" alt="Lucky Block poster for Admin Abuse event">
+              <figcaption>Admin Abuse Event Poster</figcaption>
+            </figure>
+          </article>
+
+          <article>
+            <h5>Spring Festival</h5>
+            <p>Celebrate the start of spring with games and prizes!</p>
+            <figure>
+              <img src="https://cdn.pixabay.com/photo/2017/03/30/17/29/spring-2180736_1280.jpg" alt="Spring festival poster">
+              <figcaption>Spring Festival Poster</figcaption>
+            </figure>
+          </article>
+        </section>
+
+        <!-- Past Events -->
+        <section id="past-events">
+          <h4>Past Events</h4>
+
+          <article>
+            <h5>Halloween</h5>
+            <p>Halloween event with pumpkins and candy.</p>
+            <figure>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTrcBI3WSt5qufeBEIa-BsFM1qVgLDWPEcDQ&s" alt="Halloween event pumpkin poster">
+              <figcaption>Halloween 2025 Event Poster</figcaption>
+            </figure>
+          </article>
+
+          <article>
+            <h5>Winter Gala</h5>
+            <p>End-of-year celebration with music and awards.</p>
+            <figure>
+              <img src="https://cdn.pixabay.com/photo/2016/12/19/10/39/christmas-1910916_1280.jpg" alt="Winter gala poster">
+              <figcaption>Winter Gala Poster</figcaption>
+            </figure>
+          </article>
+        </section>
+
+        <!-- Live Project Link -->
+        <a href="https://codepen.io/yourusername/full/example" class="project-link" target="_blank">View Project</a>
+      </article>
+
+      <!-- Placeholder for Project 2 -->
+      <article>
+        <h3>Project 2 Title</h3>
+        <p>Description of your second project.</p>
+      </article>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at: 803-504-4419 <strong>christianlanesweatt@gmail.com</strong></p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS (basic)</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C# (basic)</li>
+        <li>SQL (basic)</li>
+        <li>Semantic HTML</li>
+        <li>Problem-solving & logic</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Christian Sweatt</p>
+  </footer>
+
+</body>
+</html>
