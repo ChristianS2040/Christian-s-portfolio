@@ -173,6 +173,7 @@
         <a href="https://codepen.io/yourusername/full/example" class="project-link" target="_blank">View Project</a>
       </article>
 
+
       <!-- Placeholder for Project 2 -->
       <article>
         <h3>Project 2 Title</h3>
@@ -209,4 +210,5 @@
   </footer>
 
 </body>
+
 </html>
